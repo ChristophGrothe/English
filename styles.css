@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('blended_background.png') no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Century Gothic', Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff; 
+    text-shadow: 1px 1px 2px #000; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 0 10px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+section {
+    width: 30%; /* Adjust width as necessary */
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+
+footer {
+    padding: 10px 0;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
